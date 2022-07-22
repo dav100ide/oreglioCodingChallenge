@@ -1,0 +1,80 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+  margin:auto;
+}
+
+.contenitore{
+  background-color:rgba(16,16,16,0.7);
+  width: 950px;
+  height: 800px;
+  margin: auto;
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+
+body{
+ background-image:url(background.jpg);
+ background-size: cover;
+}
+
+header{
+  padding-top: 40px;
+}
+
+header>img{
+  padding-top: 20px;
+  height: 90px;
+  width: 200px;
+}
+
+header,nav{
+  text-align: center;
+  color: #00dd00;
+}
+
+nav>div{
+  background-color: #00dd00;
+  height: 33px;
+  width: 810px;
+}
+
+/* ATTENZIONE ALLA AGGIUNTA DEGLI EVENTUALI NUOVI <button> */
+button{
+    margin-top:6px;
+}
+
+main{
+  color: white;
+  height: 33px;
+  width: 810px;
+}
+
+section>h2{
+  color: white;
+  display: inline-block;
+}
+
+/* modifiche CSS delle batterie */
+.battery{
+  height: 1.5em;
+  border: 20px;
+  border-radius: 12px;
+  margin: unset;
+}
+
+.yellow{
+  background-color: orange;
+  width: 400px;
+}
+
+.green{
+  background-color: green;
+  width:700px;
+}
+
+.red{
+  background-color: red;
+  width:190px;
+
+}
